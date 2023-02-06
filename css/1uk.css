@@ -1,0 +1,196 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Monserat', sans-serif;
+}
+
+/*-----------header billeterie-----------*/
+.billeterie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Monserat', sans-serif;
+    padding: 3px;
+}
+
+.billeterie a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.billeterie a:hover {
+    text-decoration: underline;
+}
+
+/*-----------header sommaire-----------*/
+.sommaire {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sommaire a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sommaire .logo:hover {
+    opacity: .6;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+#logo img {
+    width: 100px;
+}
+
+#logo p {
+    font-weight: 700;
+}
+
+.sommaire #bordeaux,
+#animations,
+#infos {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: upperCase;
+}
+
+/*icones*/
+.sommaire .calendar_container:hover {
+    filter: brightness(75%);
+}
+
+.sommaire .leaf_container:hover {
+    filter: brightness(75%);
+}
+
+.onglets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/*Calendrier*/
+.sommaire .calendar_container {
+    background-color: rgb(211, 44, 100);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.sommaire .fa-calendar-days {
+    font-size: 20px;
+    color: white;
+}
+
+/*feuille*/
+.sommaire .leaf_container {
+    background-color: rgb(0, 174, 156);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.sommaire .fa-leaf {
+    font-size: 20px;
+    color: white;
+}
+
+/*loupe*/
+.glass_container {
+    margin-right: 10px;
+}
+
+.fa-magnifying-glass {
+    font-size: 25px;
+    transition: transform 0.5s ease;
+    margin-right: 20px;
+}
+
+.fa-magnifying-glass:hover {
+    transform: rotate(-30deg);
+
+
+}
+
+
+
+/*Onglets*/
+#onglets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*drapeaux*/
+.drapeaux {
+    margin-top: 20px;
+}
+
+.drapeaux img {
+    width: 25px;
+    height: 17px;
+    margin-bottom: 5px;
+}
+
+.drapeau_fr {
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.drapeau_uk {
+    visibility: visible;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+/*Flêche*/
+.fa-caret-up {
+    margin-right: 20px;
+
+}
+
+.fa-caret-down {
+    margin-right: 20px;
+}
+
+
+
+
+
+
+/*-----------presentation_visuelle-----------*/
