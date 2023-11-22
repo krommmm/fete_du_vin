@@ -1,4 +1,4 @@
-# <img style="width: 200px;" src="./assets/logo.svg" />
+# <img style="width: 200px;" src="./assets/vin.png" />
 
 ## Clone de la page d'accueil du site bordeaux-fete-le-vin
 
